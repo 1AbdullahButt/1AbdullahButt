@@ -6,7 +6,7 @@ My background is in fintech operations, where I built integrations that saved st
 
 **Open to remote AI Product Engineer roles.** I like taking a problem from idea to a working product.
 
-📍 Pakistan · [LinkedIn](https://www.linkedin.com/in/mabdullahbutt/)
+[LinkedIn](https://www.linkedin.com/in/mabdullahbutt/)
 
 ---
 

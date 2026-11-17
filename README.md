@@ -1,40 +1,36 @@
 ### Hi, I'm Abdullah 👋
 
-I build AI apps and automations that solve problems I've run into myself.
+**I find bugs in AI tooling and send the fixes upstream.** Google, Microsoft, Grafana, Tauri and a2a have merged them. I also build AI products end to end, from the voice input to the database.
 
-My background is in fintech operations, where I built integrations that saved staff hours every workday. Now I build products like **Stoke**, a voice-first nutrition tracker, and contribute fixes to open-source AI tooling.
+Before this I worked in fintech operations, building integrations that saved staff hours every workday. **Open to remote AI Product Engineer roles.**
 
-**Open to remote AI Product Engineer roles.** I like taking a problem from idea to a working product.
+[LinkedIn](https://www.linkedin.com/in/mabdullahbutt/) · **Follow me here** to see what I fix next.
 
-[LinkedIn](https://www.linkedin.com/in/mabdullahbutt/)
+---
+
+### Recent fixes upstream
+
+- [google/adk-go#2342](https://github.com/google/adk-go/pull/2342): the logging plugin cut text by bytes and could split a character in half; it now cuts by character
+- [grafana/grafana#136705](https://github.com/grafana/grafana/pull/136705): ad hoc filters stopped working after a reload in panels with expressions
+- [a2aproject/a2a-python#1460](https://github.com/a2aproject/a2a-python/pull/1460): a streaming send now fails clearly when the agent produces no events
+- [tauri-apps/tauri#16521](https://github.com/tauri-apps/tauri/pull/16521): `tauri migrate` rejected a package version inherited from the workspace
+- [shaka-project/shaka-player#10937](https://github.com/shaka-project/shaka-player/pull/10937): HLS AES-128 decryption broke once the media sequence number passed 2^31
+- [trpc/trpc#7964](https://github.com/trpc/trpc/pull/7964): an empty POST body is now accepted as no input
+- [harfbuzz/harfbuzz#6597](https://github.com/harfbuzz/harfbuzz/pull/6597): cmap format 13 groups were cut short when listing a font's characters
+
+Also: 7 merged in [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer/pulls?q=is%3Apr+author%3A1AbdullahButt+is%3Amerged), 6 in [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt/pulls?q=is%3Apr+author%3A1AbdullahButt+is%3Amerged), and [more](https://github.com/search?q=author%3A1AbdullahButt+is%3Apr+is%3Amerged+-user%3A1AbdullahButt&type=pullrequests). Each one comes with a regression test. I also review pull requests in google/adk-python, langchain, haystack and microsoft/agent-framework.
 
 ---
 
 ### What I've built
 
-**[Stoke](https://github.com/1AbdullahButt/stoke-showcase)**: a voice-first nutrition tracker. Describe a whole meal in one sentence and it becomes editable log entries with macros. Built with React Native (Expo), Supabase and Groq Whisper, with an adaptive calorie target and nutrition trends. *(The app is commercial, so the repo is a curated showcase with real code excerpts and screenshots.)*
-
-**[Fathom AI](https://github.com/1AbdullahButt/fathom-ai)**: a meeting-notes app with no meeting bot. Upload a recording and get a speaker-labelled transcript synced to playback, summaries, action items, clips, and Ask across meetings. Every summary point links to the transcript quote it came from. Next.js, Supabase, AssemblyAI, Groq. CI runs typecheck, lint, unit tests, a production build and Playwright e2e on every PR. **[Live demo](https://fathom-ai-tau.vercel.app)**
-
-**[MeowPay](https://github.com/1AbdullahButt/meowpay)**: a fintech prototype (for cats) built from a written spec, with persistent balances, atomic transfers, a transaction feed and a leaderboard. FastAPI + SQLite. All 25 checks pass in a black-box checker covering API correctness, atomicity, restart persistence and UI screenshots.
-
-**[AI Voice Order Management](https://github.com/1AbdullahButt/AI-Voice-Order-Management)**: calls customers about their orders, transcribes the reply with Whisper, works out the intent with GPT-4o, and updates the order in Google Sheets. Flask + Twilio.
-
----
-
-### Open source
-
-Merged contributions to **[microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer/pulls?q=is%3Apr+author%3A1AbdullahButt+is%3Amerged)** (7 PRs) and **[microsoft/SkillOpt](https://github.com/microsoft/SkillOpt/pulls?q=is%3Apr+author%3A1AbdullahButt+is%3Amerged)** (2 PRs). Each one started as a bug report with a reproduction, followed by a fix with a regression test.
-
-I've also had fixes merged in trpc, shaka-player, flarum, fluentd, ktlint, spotless, loro, supabase-py, Umbraco and [others](https://github.com/search?q=author%3A1AbdullahButt+is%3Apr+is%3Amerged+-user%3A1AbdullahButt&type=pullrequests). I review pull requests in microsoft/agent-framework, semantic-kernel, a2a-python and strands-agents.
+| Project | What it does | Built with |
+|---|---|---|
+| **[Stoke](https://github.com/1AbdullahButt/stoke-showcase)** | Voice-first nutrition tracker: say a whole meal in one sentence and get editable entries with macros | Expo · Supabase · Groq Whisper |
+| **[Fathom AI](https://github.com/1AbdullahButt/fathom-ai)** ([live demo](https://fathom-ai-tau.vercel.app)) | Meeting notes with no meeting bot. Every summary point links to the transcript quote it came from | Next.js · Supabase · AssemblyAI · Groq |
+| **[MeowPay](https://github.com/1AbdullahButt/meowpay)** | Fintech prototype (for cats) with atomic transfers; passes all 25 checks in a black-box grader | FastAPI · SQLite |
+| **[AI Voice Orders](https://github.com/1AbdullahButt/AI-Voice-Order-Management)** | Calls customers, transcribes the reply, works out what they want and updates the order | Flask · Twilio · Whisper · GPT-4o |
 
 ---
 
-### Tools I use
-
-**Languages:** Python · TypeScript · JavaScript · SQL
-**Apps:** React Native / Expo · Next.js · FastAPI · Flask
-**Data:** PostgreSQL · Supabase
-**AI:** OpenAI · Groq · RAG
-**Automation & testing:** n8n · Playwright · GitHub Actions
-**Development tools:** Claude Code · Codex
+**Stack:** Python · TypeScript · SQL · React Native/Expo · Next.js · FastAPI · Supabase/Postgres · OpenAI · Groq · n8n · Playwright · GitHub Actions · Claude Code

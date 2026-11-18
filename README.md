@@ -1,6 +1,6 @@
 ### Hi, I'm Abdullah 👋
 
-**I find bugs in AI tooling and send the fixes upstream.** Google, Microsoft, Grafana, Tauri and a2a have merged them. I also build AI products end to end, from the voice input to the database.
+**I find bugs in AI tooling and send the fixes upstream.** 64 pull requests merged across 38 projects so far, including 13 at Microsoft and others at Google, Grafana, Tauri and a2a. I also build AI products end to end, from the voice input to the database.
 
 Before this I worked in fintech operations, building integrations that saved staff hours every workday. **Open to remote AI Product Engineer roles.**
 
@@ -28,6 +28,8 @@ Also: 7 merged in [microsoft/TokenEconomizer](https://github.com/microsoft/Token
 |---|---|---|
 | **[Stoke](https://github.com/1AbdullahButt/stoke-showcase)** | Voice-first nutrition tracker: say a whole meal in one sentence and get editable entries with macros | Expo · Supabase · Groq Whisper |
 | **[Fathom AI](https://github.com/1AbdullahButt/fathom-ai)** ([live demo](https://fathom-ai-tau.vercel.app)) | Meeting notes with no meeting bot. Every summary point links to the transcript quote it came from | Next.js · Supabase · AssemblyAI · Groq |
+| **[LendLoop](https://github.com/1AbdullahButt/lendloop)** ([live demo](https://lendloop-demo.vercel.app)) | Neighbourhood tool-lending board with role-based access, masked personal data and signed, retried n8n notifications | Next.js · Clerk · Convex · n8n |
+| **[SureSend](https://github.com/1AbdullahButt/suresend)** ([live demo](https://suresend-demo.vercel.app)) | Holds a support reply that contradicts the team's newest docs and offers the safe reply instead, before it reaches the customer | Next.js · TypeScript |
 | **[MeowPay](https://github.com/1AbdullahButt/meowpay)** | Fintech prototype (for cats) with atomic transfers; passes all 25 checks in a black-box grader | FastAPI · SQLite |
 | **[AI Voice Orders](https://github.com/1AbdullahButt/AI-Voice-Order-Management)** | Calls customers, transcribes the reply, works out what they want and updates the order | Flask · Twilio · Whisper · GPT-4o |
 

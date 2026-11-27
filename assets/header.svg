@@ -6,6 +6,10 @@
     .up{opacity:0;animation:up .8s cubic-bezier(.2,.7,.2,1) forwards}
     .d1{animation-delay:.1s}.d2{animation-delay:.35s}.d3{animation-delay:3.5s}
     @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+    .typed{clip-path:inset(0 100% 0 0);animation:type 2.4s steps(60,end) .9s forwards}
+    @keyframes type{to{clip-path:inset(0 0 0 0)}}
+    .mv{animation:mv 2.4s steps(60,end) .9s forwards}
+    @keyframes mv{to{transform:translateX(746px)}}
     .caret{animation:blink 1s steps(1) infinite}
     @keyframes blink{50%{opacity:0}}
     .ring{transform-box:fill-box;transform-origin:center;animation:ring 2s ease-out infinite}
@@ -18,8 +22,7 @@
     <text class="g" x="58" y="36.5" font-size="15" font-weight="600">Open to remote AI Product Engineer roles</text>
   </g>
   <text class="t up d2" x="20" y="108" font-size="54" font-weight="700">Hi, I'm Abdullah</text>
-  <clipPath id="type"><rect x="20" y="120" width="0" height="44"><animate attributeName="width" from="0" to="760" begin="0.9s" dur="2.4s" fill="freeze"/></rect></clipPath>
-  <text class="a" x="20" y="152" font-size="26" font-weight="600" textLength="740" lengthAdjust="spacingAndGlyphs" clip-path="url(#type)">I find bugs in AI tools that companies rely on, and fix them.</text>
-  <rect class="a caret" x="20" y="128" width="3" height="32"><animate attributeName="x" from="20" to="766" begin="0.9s" dur="2.4s" fill="freeze"/></rect>
+  <text class="a typed" x="20" y="152" font-size="26" font-weight="600" textLength="740" lengthAdjust="spacingAndGlyphs">I find bugs in AI tools that companies rely on, and fix them.</text>
+  <g class="mv"><rect class="a caret" x="20" y="128" width="3" height="32"/></g>
   <text class="m up d3" x="20" y="192" font-size="17">Fintech operations background · now building voice and AI products end to end</text>
 </svg>

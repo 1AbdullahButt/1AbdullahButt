@@ -6,12 +6,14 @@
     @media (prefers-color-scheme:dark){.line{stroke:#3d444d}.flow{stroke:#4493f8}.dot{fill:#4493f8}.h{fill:#f0f6fc}.s{fill:#9198a1}.node{fill:#151b23;stroke:#4493f8}.num{fill:#4493f8}}
     .flow{stroke-dasharray:6 10;animation:dash 1s linear infinite}
     @keyframes dash{to{stroke-dashoffset:-16}}
+    .move{animation:move 6s linear infinite}
+    @keyframes move{0%{transform:translateX(0)}90%,100%{transform:translateX(676px)}}
     .node{animation:lit 6s ease-in-out infinite}
     @keyframes lit{0%,100%{stroke-width:2}3%,22%{stroke-width:7}32%{stroke-width:2}}
   </style>
   <line class="line" x1="112" y1="60" x2="788" y2="60" stroke-width="4" stroke-linecap="round"/>
   <line class="flow" x1="112" y1="60" x2="788" y2="60" stroke-width="4" stroke-linecap="round"/>
-  <circle class="dot" r="7"><animateMotion dur="6s" repeatCount="indefinite" path="M112,60 L788,60" keyTimes="0;0.9;1" keyPoints="0;1;1" calcMode="linear"/></circle>
+  <circle class="dot move" cx="112" cy="60" r="7"/>
   <circle class="node" style="animation-delay:-0.2s" cx="112" cy="60" r="32" stroke-width="2"/><text class="num" x="112" y="69" font-size="24" font-weight="700">1</text>
   <text class="h" x="112" y="128" font-size="18" font-weight="600">Spot a bug</text><text class="s" x="112" y="152" font-size="14">in a popular AI tool</text>
   <circle class="node" style="animation-delay:1.6s" cx="337" cy="60" r="32" stroke-width="2"/><text class="num" x="337" y="69" font-size="24" font-weight="700">2</text>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140" role="img" aria-label="76 fixes merged upstream, 48 open-source projects, 200+ code reviews given, 13 merged at Microsoft">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
+    .c{fill:#f6f8fa;stroke:#d1d9e0}.n{fill:#1f2328}.l{fill:#59636e}.b{fill:#0969da}.track{fill:#d1d9e0}
+    @media (prefers-color-scheme:dark){.c{fill:#151b23;stroke:#3d444d}.n{fill:#f0f6fc}.l{fill:#9198a1}.b{fill:#4493f8}.track{fill:#3d444d}}
+    .card{opacity:0;animation:up .7s cubic-bezier(.2,.7,.2,1) forwards}
+    @keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+    .bar{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:grow 1.2s cubic-bezier(.2,.7,.2,1) forwards}
+    @keyframes grow{to{transform:scaleX(1)}}
+  </style>
+  <g class="card" style="animation-delay:.1s">
+    <rect class="c" x="2" y="10" width="208" height="120" rx="14"/>
+    <text class="n" x="24" y="68" font-size="44" font-weight="700">76</text>
+    <text class="l" x="24" y="96" font-size="15">fixes merged upstream</text>
+    <rect class="track" x="24" y="110" width="164" height="4" rx="2"/><rect class="b bar" style="animation-delay:.5s" x="24" y="110" width="164" height="4" rx="2"/>
+  </g>
+  <g class="card" style="animation-delay:.25s">
+    <rect class="c" x="232" y="10" width="208" height="120" rx="14"/>
+    <text class="n" x="254" y="68" font-size="44" font-weight="700">48</text>
+    <text class="l" x="254" y="96" font-size="15">open-source projects</text>
+    <rect class="track" x="254" y="110" width="164" height="4" rx="2"/><rect class="b bar" style="animation-delay:.65s" x="254" y="110" width="104" height="4" rx="2"/>
+  </g>
+  <g class="card" style="animation-delay:.4s">
+    <rect class="c" x="462" y="10" width="208" height="120" rx="14"/>
+    <text class="n" x="484" y="68" font-size="44" font-weight="700">200+</text>
+    <text class="l" x="484" y="96" font-size="15">code reviews given</text>
+    <rect class="track" x="484" y="110" width="164" height="4" rx="2"/><rect class="b bar" style="animation-delay:.8s" x="484" y="110" width="164" height="4" rx="2"/>
+  </g>
+  <g class="card" style="animation-delay:.55s">
+    <rect class="c" x="692" y="10" width="206" height="120" rx="14"/>
+    <text class="n" x="714" y="68" font-size="44" font-weight="700">13</text>
+    <text class="l" x="714" y="96" font-size="15">merged at Microsoft</text>
+    <rect class="track" x="714" y="110" width="162" height="4" rx="2"/><rect class="b bar" style="animation-delay:.95s" x="714" y="110" width="40" height="4" rx="2"/>
+  </g>
+</svg>
